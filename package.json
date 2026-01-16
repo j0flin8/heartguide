@@ -1,14 +1,37 @@
 {
   "name": "heart-guide",
   "version": "0.1.0",
-  "private": true,
+  "description": "An empathetic AI-powered relationship counseling application built with Next.js and Google Gemini",
+  "keywords": [
+    "relationship-counseling",
+    "ai-counselor",
+    "nextjs",
+    "react",
+    "typescript",
+    "gemini-ai",
+    "mental-health",
+    "couples-therapy",
+    "open-source"
+  ],
+  "author": "HeartGuide Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j0flin8/heart-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/j0flin8/heart-guide/issues"
+  },
+  "homepage": "https://github.com/j0flin8/heart-guide#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
@@ -20,5 +43,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }
