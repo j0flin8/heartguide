@@ -20,7 +20,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 2. **Clone your fork:**
    ```bash
-   git clone https://github.com/yourusername/heart-guide.git
+   git clone https://github.com/j0flin8/heart-guide.git
    cd heart-guide
    ```
 
