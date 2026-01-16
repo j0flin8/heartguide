@@ -80,26 +80,6 @@ heart-guide/
 └── public/               # Static assets
 ```
 
-## Deployment on Vercel
-
-### Quick Deploy
-
-1. Push your code to GitHub/GitLab/Bitbucket
-2. Go to [Vercel](https://vercel.com) and click "New Project"
-3. Import your repository
-4. Add environment variable:
-   - `GEMINI_API_KEY`: Your Google Gemini API key
-5. Click "Deploy"
-
-### Environment Variables
-
-Make sure to add the following environment variable in Vercel:
-
-- **GEMINI_API_KEY**: Your Google Gemini API key (required)
-
-You can add these in:
-- Vercel Dashboard → Your Project → Settings → Environment Variables
-
 ### Build Settings
 
 Vercel will automatically detect Next.js and use these settings:
